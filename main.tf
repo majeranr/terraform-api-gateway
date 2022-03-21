@@ -9,10 +9,10 @@ terraform {
   required_version = ">= 0.14.9"
 
   backend "s3" {
-    bucket         = "aws-terraform-remote-state-storage-rm"
+    bucket         = "Enter here your bucket name from backend module"
     key            = "global/s3/terraform.tfstate"
-    region         = "us-east-1"
-    dynamodb_table = "aws-terraform-remote-state-locks"
+    region         = "Choose your region"
+    dynamodb_table = "Enter here the name of DynamoDB table from backend module"
     encrypt        = true
   }
 }
