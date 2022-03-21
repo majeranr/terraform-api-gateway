@@ -11,7 +11,7 @@
      "dynamodb:PutItem",
      "dynamodb:UpdateItem"
     ],
-    "Resource": "arn:aws:dynamodb:us-east-1:260235180855:table/Pets"
+    "Resource": "arn:aws:dynamodb:us-east-1:<your account ID>:table/Pets"
    }
   ]
 }
