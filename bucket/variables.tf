@@ -1,7 +1,7 @@
 variable "bucket_name" {
   description = "Name for S3 bucket storing the Lambda function"
   type        = string
-  default     = "aws-storage-lambda-rm"
+  default     = "aws-storage-lambda"
 }
 
 variable "privacy" {
