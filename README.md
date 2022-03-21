@@ -2,7 +2,7 @@
 
 ### Features
 
-- Ready-to-test REST API in Python (from https://github.com/echovue/pet-api-lambda-python), only POST method included
+- Ready-to-test API Gateway with REST API in Python (from https://github.com/echovue/pet-api-lambda-python), only POST method included
 - Terraform state stored remotely in encrypted S3 bucket
 - Ready-to-use after slight customization
 - All resources are included in AWS free tier so no costs should be billed
