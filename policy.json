@@ -11,7 +11,7 @@
      "dynamodb:PutItem",
      "dynamodb:UpdateItem"
     ],
-    "Resource": "arn:aws:dynamodb:us-east-1:<your account ID>:table/Pets"
+    "Resource": "arn:aws:dynamodb:<your chosen region, default: us-east-1>:<your account ID>:table/<your chosen DynamoDB table name, default: Pets"
    }
   ]
 }
