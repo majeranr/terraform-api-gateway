@@ -5,7 +5,7 @@ variable "backend_region" {
 
 variable "backend_bucket_name" {
   type    = string
-  default = "aws-terraform-remote-state-storage-rm"
+  default = "aws-terraform-remote-state-storage-for-backend-api-project"
 }
 
 variable "encryption_algorithm" {
@@ -15,7 +15,7 @@ variable "encryption_algorithm" {
 
 variable "dynamodb_terraform_name" {
   type    = string
-  default = "aws-terraform-remote-state-locks"
+  default = "aws-terraform-remote-state-locks-for-backend-api-project"
 }
 
 variable "dynamodb_terraform_billing_mode" {
